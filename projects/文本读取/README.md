@@ -1,5 +1,5 @@
 ## 读取文本项目介绍 ##
-**项目名称：**读取文本文件并统计单词数目
+**项目名称：** 读取文本文件并统计单词数目
 
 **项目要求：**[详情参见本链接](https://github.com/superxiaoqiang/blcu_py_nlp/blob/master/week4_Python_Basics_3.md)
 
