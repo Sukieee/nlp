@@ -6,4 +6,4 @@
 
 - 导出json文件如下
 
-![截图]导出.png
+![image text](导出.png)
