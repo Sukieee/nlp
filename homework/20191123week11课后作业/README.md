@@ -1,7 +1,9 @@
 # kekenet爬虫说明
 
-- lib为各种函数文件
-- main为主文件
-- 导出json文件[百度网盘链接如下](https://pan.baidu.com/s/1HMztRxkBBmsRaboYokxUuQ)
+- lib.py includes all functions
+- main.py is the main file
+- export to json files
+
+Because it is too large, so I give [Baiduyun link](https://pan.baidu.com/s/1HMztRxkBBmsRaboYokxUuQ) here.
 
 ![image text](导出.png)
