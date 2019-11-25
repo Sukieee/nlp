@@ -22,4 +22,4 @@
 | read.py | Read() | 读取文本并输出中文和英文文本 | 中英混杂文本 | 中文文本.txt和英文文本.txt|
 | zhseg.py | ZhSeg() | 进行中文分词并输出新的中文分词后的文本 | 中文文本.txt | 分词后中文文本.txt |
 | count.py | Count() | 统计中文和英文中单词出现的次数 | 英文文本.txt和分词后中文文本.txt | list(单词,数目)|
-| storage | Storage() | 将结果保存到csv文件中 | list(单词,数目) | csv文件 |
+| storage.py | Storage() | 将结果保存到csv文件中 | list(单词,数目) | csv文件 |
