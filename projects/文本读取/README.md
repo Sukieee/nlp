@@ -1,4 +1,5 @@
 - 项目名称：读取文本文件并统计单词数目
+- 项目要求：[详情参见本链接](https://github.com/superxiaoqiang/blcu_py_nlp/blob/master/week4_Python_Basics_3.md)
 - 项目功能：
     - 读取文件，将文件的中文和英文分别抽取出来
     - 分别统计每个文件中不同中文词汇于不同英文单词出现的次数
