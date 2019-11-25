@@ -1,0 +1,9 @@
+- 项目名称：楼盘价格爬取
+- 项目要求：[详情参见本链接](https://github.com/superxiaoqiang/blcu_py_nlp/blob/master/week4_Python_Basics_3.md)
+- 项目功能：
+    - 抓取房天下网页中北京各地区新房楼盘价格
+    - 将信息保存到csv文件中
+    - 将统计结果保存到csv文件中（每个txt文件对应一个csv文件结果）
+- 项目成员：
+    - 抓取信息：杨瑞霞
+    - 保存结果到csv文件中：张伊晗
