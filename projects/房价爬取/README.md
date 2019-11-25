@@ -16,4 +16,4 @@
 | 文件名 | 函数名 | 说明 | 输入 | 输出 |
 | :--- | :--- | :--- | :--- | :--- |
 | info.py | GetInfo() | 抓取房天下房价 | 无 | list(info) |
-| storage.py | Storage() | 将信息保存到csv文件中| list(info | csv文件 |
+| storage.py | Storage() | 将信息保存到csv文件中| list(info) | csv文件 |
