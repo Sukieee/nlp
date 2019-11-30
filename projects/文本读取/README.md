@@ -24,4 +24,4 @@
 |  | CountZh()和CountEn() | 统计词频并输出csv文件 | 
 |  | main.py | 主函数 | 
 
-**说明文档：** 请下载完成html说明包
+**说明文档：** [请下载完整html说明包](https://github.com/yangruixia/nlp/tree/master/projects/%E6%96%87%E6%9C%AC%E8%AF%BB%E5%8F%96/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3)
