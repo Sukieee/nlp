@@ -18,4 +18,4 @@
 | main.py | 爬虫函数 | 抓取房天下房价 |
 |  | into_csv() | 将信息保存到csv文件中|
 
-**说明文档：** 请下载完整html包（zip格式）
+**说明文档：** [请下载完整html包（zip格式）](https://github.com/yangruixia/nlp/blob/master/projects/%E7%88%AC%E5%8F%96%E6%88%BF%E4%BB%B7/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.zip)
