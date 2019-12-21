@@ -101,6 +101,29 @@
   - DRNEG（否定表达发生率）
   - DRGERUND（动名词发生率）
   - DRINF（不定式发生率）
+- Word Information
+  - WRDNOUN（名词出现的分数）
+  - WRDVERB（动词出现的分数）
+  - WRDADJ（形容词出现的分数）
+  - WRDADV（副词出现的分数）
+  - WRDPRO（人称代词）
+  - WRDPRP1s（第一人称代词单数）
+  - WRDPRP1p（第一人称代词复数）
+  - WRDPRP2（第二人称代词）
+  - WRDPRP3s（第三人称代词单数）
+  - WRDPRP3p（第三人称代词复数）
+  - WRDFRQc（内容词的平均词频）
+  - WRDFRQa（所有词的平均单词频率）
+  - WRDFRQmc（句子中品骏最小单词频率）
+  - WRDAOAc（获取年龄）
+  - WRDFAMc（成年人对于单词的熟悉程度）
+  - WRDCNCc（具体性）一个单词具体程度和抽象程度的指标
+  - WRDIMGc（想象力）
+  - WRDMEAc（意义）
+  - WRDPOLc（一词多义的数量）
+- Readability
+  - Flesch Reading Ease：RDFRE（Flesch Reading Ease公式的输出是0到100之间的数字，得分越高表示阅读越容易。平均文档的Flesch Reading Ease分数在6到70之间）
+  - RDFKGL（这个更常见的Flesch-Kincaid年级水平公式将“阅读难易度分数”转换为美国年级学校水平。数字越高，阅读文本越困难。等级范围为0到12。）
   
 **项目成员：**
 - 读取文件：杨瑞霞
@@ -117,4 +140,4 @@
 |  | CountZh()和CountEn() | 统计词频并输出csv文件 | 
 |  | main.py | 主函数 | 
 
-**说明文档：** [请下载完整html说明包](https://github.com/yangruixia/nlp/blob/master/projects/%E6%96%87%E6%9C%AC%E8%AF%BB%E5%8F%96/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.zip)
+**说明文档：**
