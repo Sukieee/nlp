@@ -138,8 +138,8 @@
 | 文件名| 函数名 | 说明 | 
 | :--- | :--- | :--- | 
 | Descriptive_Paragraph | 1.DESPC（段落数）2.DESPL（平均段落长度）3.DESPLd（段落平均长度的标准差） | 参考官方网页 |
-| Descriptive_Sentence | 1.DESSC（句子数）2.DESSL（句子平均长度）3.DESSLd（句子平均长度的标准差）| 参考官方网页 |
-| Descriptive_Sentence | 1.DESWC（字数）2.DESWLlt（单词中的平均字母数）3.DESWLltd（单词平均字母数的标准偏差） | 参考官方网页 |
+| Descriptive_sentence | 1.DESSC（句子数）2.DESSL（句子平均长度）3.DESSLd（句子平均长度的标准差）| 参考官方网页 |
+| Descriptive_words | 1.DESWC（字数）2.DESWLlt（单词中的平均字母数）3.DESWLltd（单词平均字母数的标准偏差） | 参考官方网页 |
 | main.py | 主函数 | 读取文章，可通过段落数，句子数和单词数对齐进行描述，输出上述指标到txt文件对描述结果进行保存 |
 
 **目前遇到的问题**
