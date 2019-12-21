@@ -5,6 +5,10 @@
 **项目要求：**[详情参见本链接](https://github.com/superxiaoqiang/blcu_py_nlp/blob/master/ch11_Python_Advanced6_NLP_1.md)
 
 **项目功能：**
+
+类似于 Coh-Metrix 的简略版 Mini-Metrix
+
+#### Coh-Metrix功能分析 ####
 - Descriptive模块（描述性指标）
   - DESPC（段落数）
   - DESSC（句子数）
@@ -18,24 +22,30 @@
   - DESWLlt（单词中的平均字母数）
   - DESWLltd（单词平均字母数的标准偏差）
 - Text Easability Principal Component Scores模块（文本易用性）
-  - PCNARz（叙述性）
-  - PCNARp（语法简洁性）
-  - PCSYNz（单词具体性）
-  - PCSYNp（
-  - PCCNCz
+  - PCNARz（叙述性）叙述性文本讲述故事
+  - PCNARp
+  - PCSYNz（语法简洁性）文本中句子包含较少单词并使用更为简单、熟悉的句法结构的程度。
+  - PCSYNp
+  - PCCNCz（单词具体性）具体有意义的单词
   - PCCNCp
-  - PCREFz
+  - PCREFz（参照凝聚力）高凝聚力的文本集中体现思想，低凝聚力的文本通常更难以处理
   - PCREFp
-  - PCDCz
+  - PCDCz（深度内聚）因果关系和逻辑关系
   - PCDCp
-  - PCVERBz
+  - PCVERBz（动词衔接）文本中动词重叠的程度
   - PCVERBp
-  - PCCONNz
+  - PCCONNz（连接性）文本中包含明确的对抗性，加性和比较性连接词以表达文本中的关系的程度
   - PCCONNp
-  - PCTEMPz
+  - PCTEMPz（时间）包含更多关于时间性的线索并且具有更一致的时间性（即时态，方面）的文本更易于处理和理解
   - PCTEMPp
-- 进行英文词频统计
-- 将统计结果保存到csv文件中（每个txt文件对应一个csv文件结果）
+-  Referential Cohesion（参照内聚）本地句子或共指之间内容词的重叠
+  - CRFNO1（相邻名词重叠）
+  - CRFNOa（全局重叠）
+  - CRFAO1（参数重叠）当一个句子中的名词与另一句子中的相同名词（单数或复数形式）重叠时，就会发生参数重叠
+  - CRFAOa
+  - 
+  
+
 
 **项目成员：**
 - 读取文件：杨瑞霞
