@@ -125,16 +125,20 @@
   - Flesch Reading Ease：RDFRE（Flesch Reading Ease公式的输出是0到100之间的数字，得分越高表示阅读越容易。平均文档的Flesch Reading Ease分数在6到70之间）
   - RDFKGL（这个更常见的Flesch-Kincaid年级水平公式将“阅读难易度分数”转换为美国年级学校水平。数字越高，阅读文本越困难。等级范围为0到12。）
   
-### 第一阶段任务 ###
+### 第一阶段：Descriptive模块 ###
+
 **项目成员：**
-- Descriptive模块：
+- 段落处理及其描述：杨澜
+- 句子处理及其描述：张伊晗
+- 单词处理及其描述：杨瑞霞
+
 **文件构成：**
 
-| 文件名 | 函数名 | 说明 | 
-| :---: | :--- | :--- | 
-| lib.py | 各种功能函数 |  | 
-| main.py | Read() | 读取文本并输出中文和英文文本 | 
-|  | CountZh()和CountEn() | 统计词频并输出csv文件 | 
-|  | main.py | 主函数 | 
+| 文件名| 函数名 | 说明 | 
+| :--- | :--- | :--- | 
+| Descriptive_Paragraph | 1.DESPC（段落数）2.DESPL（平均段落长度）3.DESPLd（段落平均长度的标准差） | 参考官方网页 |
+| Descriptive_Sentence | 1.DESSC（句子数）2.DESSL（句子平均长度）3.DESSLd（句子平均长度的标准差）| 参考官方网页 |
+| Descriptive_Sentence | 1.DESWC（字数）2.DESWLlt（单词中的平均字母数）3.DESWLltd（单词平均字母数的标准偏差） | 参考官方网页 |
+| main.py | 主函数 | 参考官方网页 |
 
 **说明文档：**
