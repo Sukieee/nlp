@@ -43,10 +43,65 @@
   - CRFNOa（全局重叠）
   - CRFAO1（参数重叠）当一个句子中的名词与另一句子中的相同名词（单数或复数形式）重叠时，就会发生参数重叠
   - CRFAOa
-  - 
+  - CRFSO1
+  - CRFSOa
+  - CRFCWO1（内容词重叠）句子对之间重叠的显式内容词的比例
+  - CRFCWO1d
+  - CRFCWOa
+  - CRFCWOad
+  - CRFANP1（照应重叠）成对句子之间的前向重叠
+  - CRFANPa
+- Latent Semantic Analysis（潜在语义分析）提供了句子之间或段落之间语义重叠的度量
+  - LSASS1（LSA相邻）
+  - LSASS1d
+  - LSASSp
+  - LSASSpd
+  - LSAPP1
+  - LSAPP1d
+  - LSAGN
+  - LSAGNd
+- Lexical Diversity（词汇多样性）
+  - LDTTRc（令牌比率）
+  - LDTTRa（键入所有单词的标记率）
+  - LDMTLDa（素有丹迪的MTLD词汇多样性度量）
+  - LDVOCDa（VOC词汇多样性）
+- Connectives（连接词）连接词在概念和子句之间的紧密联系的建立中起着重要作用
+  - CNCAll（所有连接词）
+  - CNCCaus（因果连接词）
+  - CNCLogic（逻辑连接词）
+  - CNCADC（对比性连接词）
+  - CNCTemp
+  - CNCTempx（拓展的实践性连接词）
+  - CNCAdd（加法连接词）
+  - CNCPos（积极性）
+  - CNCNeg（消极性）
+- Situation Model（情况模型）使用情境模型
+  - SMCAUSv（因果动词的发生率）
+  - SMCAUSvp（因果内容）
+  - SMINTEp
+  - SMCAUSr
+  - SMINTEr 
+  - SMCAUSlsa
+  - SMCAUSwn
+  - SMTEMP
+- Syntactic Complexity（句法复杂性）
+  - SYNLE（主要动词之前的词）
+  - SYNNP（每个NP的修饰词）
+  - SYNMEDpos（这是根据部分语音标签计算出的相邻句子之间的平均最小编辑距离得分）
+  - SYNMEDwrd（这是从单词计算出的相邻句子之间的最小编辑距离得分）
+  - SYNMEDlem（这是引理中相邻句子之间的最小编辑距离得分。）
+  - SYNSTRUTa（语法结构相似性相邻）
+  - SYNSTRUTt（语法结构相似性全部为01）
+- Syntactic Pattern Density（句法模式密度）
+  - DRNP（名词短语发生率）
+  - DRVP（动词短语发生率）
+  - DRAP（副词短语发生率）
+  - DRPP（介词短语发生率）
+  - DRPVAL
+  - DRNEG（否定表达发生率）
+  - DRGERUND（动名词发生率）
+  - DRINF（不定式发生率）
   
-
-
 **项目成员：**
 - 读取文件：杨瑞霞
 - 中文分词以及词频统计：张伊晗
