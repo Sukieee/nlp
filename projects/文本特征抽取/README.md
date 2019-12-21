@@ -63,7 +63,7 @@
 - Lexical Diversity（词汇多样性）
   - LDTTRc（令牌比率）
   - LDTTRa（键入所有单词的标记率）
-  - LDMTLDa（素有丹迪的MTLD词汇多样性度量）
+  - LDMTLDa（MTLD词汇多样性度量）
   - LDVOCDa（VOC词汇多样性）
 - Connectives（连接词）连接词在概念和子句之间的紧密联系的建立中起着重要作用
   - CNCAll（所有连接词）
@@ -125,12 +125,9 @@
   - Flesch Reading Ease：RDFRE（Flesch Reading Ease公式的输出是0到100之间的数字，得分越高表示阅读越容易。平均文档的Flesch Reading Ease分数在6到70之间）
   - RDFKGL（这个更常见的Flesch-Kincaid年级水平公式将“阅读难易度分数”转换为美国年级学校水平。数字越高，阅读文本越困难。等级范围为0到12。）
   
+### 第一阶段任务 ###
 **项目成员：**
-- 读取文件：杨瑞霞
-- 中文分词以及词频统计：张伊晗
-- 英文词频统计：张伊晗
-- 导出csv文件：杨澜
-
+- Descriptive模块：
 **文件构成：**
 
 | 文件名 | 函数名 | 说明 | 
